@@ -34,15 +34,38 @@
 
 ### 2. How the profiling process helps
 
-The profiling processes helps me by showing me which of my methods are consuming the most resources when performing a specific task.
+The profiling processes helps me by showing me
+which of my methods are consuming the most resources
+when performing a specific task.
 
-In these examples the benefits aren't really apparent because each controller only calls one corresponding service method, so it's obvious where the performance bottlenecks are, but I imagine when my app gets bigger, and each method may call several different methods, profiling will help me find which of these methods are actually bottlenecking my performance, and therefore should be the focus of my optimization efforts.
+In these examples the benefits aren't really apparent
+because each controller only calls one corresponding service method,
+so it's obvious where the performance bottlenecks are,
+but I imagine when my app gets bigger,
+and each method may call several different methods,
+profiling will help me find which of these methods
+are actually bottlenecking my performance,
+and therefore should be the focus of my optimization efforts.
 
 ### 3. Is IntelliJ Profiler effective?
+
+IntelliJ Profiler's reports let me see
+which of my methods are taking the most resources (e.g. time, or memory)
+when performing a specific task.
+So I think it is effective in assisting me
+to analyze and identify bottlenecks in my application code.
 
 ### 4. Performance testing and profiling challenges
 
 ### 5. IntelliJ Profiler benefits
+
+The first benefit is that it comes with the IDE,
+and activating it is as simple as choosing a different run configuration,
+and viewing the results is as simple as pressing a button on a pop-up.
+
+The second benefit is the level of detail it gives me.
+I can view the results by method, by timeline, or by a flame graph.
+The profiler also distinguishes between total time and CPU time.
 
 ### 6. Handling inconsistent findings
 
