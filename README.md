@@ -60,6 +60,9 @@ to analyze and identify bottlenecks in my application code.
 
 ### 4. Performance testing and profiling challenges
 
+My main challenge is the high variance on the results, which I overcame
+by just redoing them multiple times.
+
 ### 5. IntelliJ Profiler benefits
 
 The first benefit is that it comes with the IDE,
