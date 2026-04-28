@@ -32,6 +32,9 @@
 
 ### 1. JMeter vs. IntelliJ Profiler
 
+JMeter works by calling the APIs and measuring performance from "outside" of the application,
+IntelliJ Profiler works by monitoring the app's methods from the "inside".
+
 ### 2. How the profiling process helps
 
 The profiling processes helps me by showing me
